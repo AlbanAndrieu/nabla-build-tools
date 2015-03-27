@@ -18,19 +18,25 @@
 	<packaging>jar</packaging>
 	<name>Maven Build Tools Configuration for quality metrics</name>
 	<description>Nabla Maven Config - global configurations for quality metrics such as PMD FindBugs CheckStyle</description>
-	<url>http://home.nabla.mobi:8087/maven/build-tools</url>	
-
-	<scm>
-		<connection>scm:svn:http://alban.googlecode.com/svn/trunk/build-tools</connection>
-		<developerConnection>scm:svn:https://alban.googlecode.com/svn/trunk/build-tools</developerConnection>
-		<url>https://alban.googlecode.com/svn/trunk/build-tools</url>
-		<tag>HEAD</tag>
-	</scm>
-
-        <ciManagement>
-                <system>Jenkins</system>
-                <url>${JOB_URL}</url>
-        </ciManagement>
+	<!--<url>http://home.nabla.mobi:8087/maven/build-tools</url>-->	
+    	<url>https://github.com/AlbanAndrieu/nabla-build-tools</url>
+    	
+    	<scm>
+    		<connection>scm:git:git://github.com/AlbanAndrieu/nabla-build-tools.git</connection>
+    		<developerConnection>scm:git:git@github.com:AlbanAndrieu/nabla-build-tools.git</developerConnection>
+    		<url>https://github.com/AlbanAndrieu/nabla-build-tools</url>
+    	</scm>
+    	
+    	<ciManagement>
+    		<system>Jenkins</system>
+    		<!--<url>${JENKINS_URL}/job/${JOB_NAME}</url>-->
+    	    <url>${JOB_URL}</url>
+    	</ciManagement>
+    	
+    	<issueManagement>
+    		<url>https://github.com/AlbanAndrieu/nabla-build-tools/issues</url>
+    		<system>GitHub Issues</system>
+    	</issueManagement>
 
 	<licenses>
 		<license>
@@ -176,7 +182,7 @@
 					<url>ftp://www.nabla.mobi/maven</url>
 					<url>ftp://home.nabla.mobi:8021/</url>
 					-->
-					<url>dav:http://home.nabla.mobi:8087/maven/build-tools</url>
+					<url>dav:http://192.168.0.46:8087/maven/build-tools</url>
 				</site>
 			</distributionManagement>
             		<!--
