@@ -131,7 +131,6 @@
         </module>
         <module name="IllegalCatch" />
         <module name="IllegalThrows" />
-        <module name="JUnitTestCase" />
         <!--module name="ReturnCount" /-->
         <module name="IllegalType">
             <property name="severity" value="error"/>
