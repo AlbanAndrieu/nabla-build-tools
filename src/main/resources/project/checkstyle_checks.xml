@@ -61,10 +61,10 @@
         <!--<property name="cacheFile" value="null"/>-->
         <property name="cacheFile" value="target/cachefile"/>
         <property name="tabWidth" value="4"/>
-	
+
 		<!-- needed for suppression filter -->
 	    <module name="FileContentsHolder"/>
-	
+
         <!-- See http://checkstyle.sourceforge.net/config_annotation.html -->
         <module name="MissingDeprecated"/>
         <module name="MissingOverride"/>
@@ -121,7 +121,6 @@
         <module name="InnerAssignment" />
         <!--module name="MagicNumber" /-->
         <module name="MissingSwitchDefault" />
-        <module name="RedundantThrows" />
         <module name="SimplifyBooleanExpression" />
         <module name="SimplifyBooleanReturn" />
         <module name="StringLiteralEquality">
@@ -249,7 +248,7 @@
     		  <property name="format"
     		     value="com\.$\{projectname\}\.project(\.[a-z][a-zA-Z0-9]+)*$"/>
     		</module>
-    		-->    
+    		-->
 		<module name="ParameterName" />
 		<module name="StaticVariableName" />
 		<module name="TypeName" />
@@ -284,9 +283,9 @@
         <module name="WhitespaceAfter">
             <property name="tokens" value="COMMA,SEMI,COLON,LITERAL_DO,LITERAL_FOR,LITERAL_IF,LITERAL_WHILE,QUESTION"/>
         </module>
-		<!--module name="WhitespaceAround" /--> 
+		<!--module name="WhitespaceAround" /-->
 	</module>
-	
+
 	<!-- ignore lines with svn expansion keyword $URL in it -->
 	<module name="SuppressWithNearbyCommentFilter">
 	    <property name="commentFormat" value="\$Id"/>
