@@ -280,7 +280,7 @@
 		<module name="ParenPad" />
 		<module name="TypecastParenPad" />
         <module name="WhitespaceAfter">
-            <property name="tokens" value="COMMA,SEMI,COLON,LITERAL_DO,LITERAL_FOR,LITERAL_IF,LITERAL_WHILE,QUESTION"/>
+            <property name="tokens" value="COMMA,SEMI,TYPECAST"/>
         </module>
 		<!--module name="WhitespaceAround" /-->
 	</module>
