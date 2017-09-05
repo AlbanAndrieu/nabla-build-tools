@@ -108,7 +108,7 @@ public void doSomething() {
    </example>
 
  </rule>
- 
+
 <rule name="ExcessiveClassLength"
        message="Avoid really long Classes."
        class="net.sourceforge.pmd.rules.design.LongClassRule">
@@ -259,7 +259,7 @@ public class Foo
 
 
     <!-- Basic -->
-    
+
     <rule name="EmptySwitchStatements"
           message="Avoid empty switch statements"
           class="net.sourceforge.pmd.rules.XPathRule">
@@ -291,7 +291,7 @@ public class Foo
   ]]>
       </example>
       </rule>
-      
+
 
     <rule name="JumbledIncrementer"
          message="Avoid using an outer loop incrementer in an inner loop for update expression"
@@ -323,7 +323,7 @@ public class Foo
  }}]]>
      </example>
      </rule>
-     
+
     <rule name="ForLoopShouldBeWhileLoop"
           message="This for loop could be simplified to a while loop"
           class="net.sourceforge.pmd.rules.XPathRule">
@@ -373,7 +373,7 @@ public class Foo
 
 
            <!-- Unusedcode -->
-           
+
   <rule name="UnusedPrivateField"
         message="Avoid unused private fields such as ''{0}''"
         class="net.sourceforge.pmd.rules.UnusedPrivateFieldRule">
@@ -457,8 +457,8 @@ public class Foo {
 
 
          <!-- Design -->
-         
-         
+
+
 
   <rule name="LooseCouplingRule"
         message="Avoid using implementation types like ''{0}''; use the interface instead"
@@ -485,8 +485,8 @@ public class Bar {
 ]]>
     </example>
   </rule>
-  
-  
+
+
 
     <rule name="AvoidReassigningParametersRule"
         message="Avoid reassigning parameters such as ''{0}''"
@@ -505,7 +505,7 @@ public class Foo {
 ]]>
     </example>
   </rule>
-  
+
     <rule name="SwitchDensity"
           message="A high ratio of statements to labels in a switch statement.  Consider refactoring."
           class="net.sourceforge.pmd.rules.design.SwitchDensityRule">
@@ -641,11 +641,11 @@ public class Foo {
       </example>
     </rule>
 
-  
-  
+
+
   <!-- Strings -->
-  
-  
+
+
     <rule name="AvoidDuplicateLiterals"
         message="The same String literal appears {0} times in this file."
         class="net.sourceforge.pmd.rules.AvoidDuplicateLiteralsRule">
@@ -670,7 +670,7 @@ public class Foo {
 ]]>
     </example>
   </rule>
-  
+
    <rule name="StringToString"
         message="Avoid calling toString() on String objects; this is unnecessary"
         class="net.sourceforge.pmd.rules.StringToStringRule">
@@ -690,7 +690,7 @@ public class Foo {
 ]]>
     </example>
     </rule>
-    
+
    <rule name="StringInstantiation"
         message="Avoid instantiating String objects; this is usually unnecessary."
         class="net.sourceforge.pmd.rules.XPathRule">
@@ -716,9 +716,9 @@ public class Foo {
 ]]>
     </example>
     </rule>
-    
+
           <!-- Coupling -->
-          
+
     <rule name="CouplingBetweenObjectsRule"
         message="High amount of different objects as memebers donotes a high coupling"
         class="net.sourceforge.pmd.rules.CouplingBetweenObjectsRule">
@@ -782,7 +782,7 @@ public class Foo {
 
 
    <!-- Controversial -->
-   
+
     <rule name="NullAssignment"
           message="Assigning an Object to null is a code smell.  Consider refactoring."
           class="net.sourceforge.pmd.rules.design.NullAssignmentRule">
@@ -810,7 +810,7 @@ public class Foo {
       </example>
 
     </rule>
-    
+
     <rule name="UnusedModifier"
          message="Unused modifiers are, well, unused"
          class="net.sourceforge.pmd.rules.XPathRule">
@@ -835,9 +835,9 @@ public class Foo {
  ]]>
      </example>
      </rule>
-     
+
             <!-- JUnit -->
-            
+
 
     <rule name="JUnitStaticSuite"
           message="You have a suite() method that is not both public and static, so JUnit won't call it to get your TestSuite.  Is that what you wanted to do?"
@@ -924,8 +924,8 @@ public class Foo extends TestCase {
 
 
     <!-- StrictExpression -->
-    
-    
+
+
         <rule name="ExceptionTypeChecking"
          message="The catch clause shouldn't check the exception type - catch several exceptions instead"
           class="net.sourceforge.pmd.rules.strictexception.ExceptionTypeChecking">
@@ -952,9 +952,9 @@ try {
                 ]]>
       </example>
     </rule>
-    
+
     <!-- Controversial -->
-    
+
     <rule name="FinalizeShouldBeProtected"
           message="If you override finalize(), make it protected"
           class="net.sourceforge.pmd.rules.XPathRule">
@@ -984,11 +984,11 @@ public class Foo {
   ]]>
       </example>
     </rule>
-    
+
 
 
     <!-- Basic -->
-    
+
 
     <rule name="UnnecessaryReturn"
           message="Avoid unnecessary return statements"
@@ -1050,7 +1050,7 @@ public class Foo {
     </rule>
 
     <!-- Design -->
-    
+
     <rule name="FinalFieldCouldBeStatic"
           message="This final field could be made static"
           class="net.sourceforge.pmd.rules.XPathRule">
@@ -1107,8 +1107,5 @@ public class Foo {
   ]]>
     </example>
   </rule>     -->
-  
+
 </ruleset>
-
-
-

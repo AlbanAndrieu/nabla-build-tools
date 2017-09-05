@@ -42,7 +42,7 @@
 	SWT.Traverse,
 	SWT.Verify)}, new ${listener:newType(org.eclipse.swt.widgets.Listener)}(){
 	public void handleEvent(${event:newType(org.eclipse.swt.widgets.Event)} e) {
-		${imp:import(org.eclipse.swt.SWT)}${cursor}				
+		${imp:import(org.eclipse.swt.SWT)}${cursor}
 	}
 });</template><template autoinsert="true" context="java-members" deleted="false" description="Junit after method" enabled="true" name="after">${:import (org.junit.After)}&#13;
  &#13;
@@ -179,7 +179,7 @@ ${imp:import(org.eclipse.swt.SWT)}${cursor}</template><template autoinsert="fals
 }</template><template autoinsert="false" context="java-statements" deleted="false" description="if else statement" enabled="true" id="org.eclipse.jdt.ui.templates.ifelse" name="ifelse">if (${condition:var(boolean)}) {
 	${cursor}
 } else {
-	
+
 }</template><template autoinsert="false" context="swt-statements" deleted="false" description="new Image" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.swt.image" name="Image">${labelType:newType(org.eclipse.swt.widgets.Label)} ${image:newName(org.eclipse.swt.widgets.Label)}= new ${labelType}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(SWT.NONE, SWT.BORDER)});
 ${image}.setLayoutData(new ${type:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(BEGINNING, CENTER, END, FILL)}, SWT.${vertical:link(CENTER, TOP, BOTTOM, FILL)}, ${hex:link(false, true)}, ${vex:link(false, true)}));
 ${image}.setImage(${word_selection}${});
@@ -216,7 +216,7 @@ ${cursor}
 ${shell}.pack();
 ${shell}.open();
 while (!${shell}.isDisposed()) {
-	if (!${display}.readAndDispatch ()) 
+	if (!${display}.readAndDispatch ())
 		${display}.sleep();
 }
 ${display}.dispose();</template><template autoinsert="false" context="java-statements" deleted="false" description="create new object" enabled="true" id="org.eclipse.jdt.ui.templates.new" name="new">${type} ${name} = new ${type}(${arguments});</template><template autoinsert="false" context="java" deleted="false" description="non-externalized string marker" enabled="true" id="org.eclipse.jdt.ui.templates.non-nls" name="nls">//$$NON-NLS-${N}$$</template><template autoinsert="true" context="javadoc" deleted="false" description="&lt;code&gt;null&lt;/code&gt;" enabled="true" id="org.eclipse.jdt.ui.templates.code_tag_null" name="null">&lt;code&gt;null&lt;/code&gt;</template><template autoinsert="true" context="java-statements" deleted="false" description="Parse xml file as Document" enabled="true" name="parsexml">${:import(org.w3c.dom.Document,&#13;
@@ -391,10 +391,10 @@ ${column}.setText(${word_selection}${});
 ${imp:import(org.eclipse.swt.SWT)}${cursor}</template><template autoinsert="false" context="swt-statements" deleted="false" description="new TableItem for a Table" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.swt.tableitem" name="TableItem">${type:newType(org.eclipse.swt.widgets.TableItem)} ${item:newName(org.eclipse.swt.widgets.TableItem)}= new ${type}(${parent:var(org.eclipse.swt.widgets.Table)}, SWT.NONE);
 ${item}.setText(${count:link(0, 1, 2, 3, 4, 5)}, ${word_selection}${});
 ${imp:import(org.eclipse.swt.SWT)}${cursor}</template><template autoinsert="false" context="java-members" deleted="false" description="test method" enabled="true" id="org.eclipse.jdt.ui.templates.test" name="test">public void test${name}() throws Exception {
-	${cursor} 
+	${cursor}
 }</template><template autoinsert="false" context="java-members" deleted="false" description="test method (JUnit 4)" enabled="true" id="org.eclipse.jdt.ui.templates.test_junit4" name="Test">@${testType:newType(org.junit.Test)}
 public void ${testName}() throws Exception {
-	${staticImport:importStatic('org.junit.Assert.*')}${cursor} 
+	${staticImport:importStatic('org.junit.Assert.*')}${cursor}
 }</template><template autoinsert="false" context="swt-statements" deleted="false" description="new Text" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.swt.text" name="Text">${type:newType(org.eclipse.swt.widgets.Text)} ${text:newName(org.eclipse.swt.widgets.Text)}= new ${type}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link('SWT.SINGLE | SWT.LEAD | SWT.BORDER', 'SWT.SINGLE | SWT.LEAD | SWT.READ_ONLY | SWT.BORDER', 'SWT.SINGLE | SWT.LEAD | SWT.PASSWORD | SWT.BORDER', 'SWT.MULTI | SWT.WRAP | SWT.V_SCROLL | SWT.BORDER', 'SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL | SWT.BORDER')});
 ${text}.setLayoutData(new ${gridDataType:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(FILL, BEGINNING, CENTER, END)}, SWT.${vertical:link(CENTER, TOP, BOTTOM, FILL)}, ${hex:link(true, false)}, ${vex:link(false, true)}));
 ${text}.setText(${word_selection}${});
