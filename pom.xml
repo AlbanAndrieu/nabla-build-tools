@@ -85,8 +85,7 @@
 						</dependency>
 					</dependencies>
 					<configuration>
-						<!-- TODO use with GIT -->
-						<pushChanges>false</pushChanges>
+						<pushChanges>true</pushChanges>
 						<localCheckout>true</localCheckout>
 						<useReleaseProfile>true</useReleaseProfile>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
