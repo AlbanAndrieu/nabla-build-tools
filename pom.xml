@@ -100,9 +100,11 @@
 							<checkModificationExclude>**/*.log</checkModificationExclude>
 						</checkModificationExcludes>
 						<!--<allowTimestampedSnapshots>true</allowTimestampedSnapshots>-->
+						<!--
 						<providerImplementations>
 							<git>jgit</git>
 						</providerImplementations>
+						-->
 					</configuration>
 				</plugin>
 			</plugins>
@@ -191,7 +193,7 @@
 					<url>ftp://www.nabla.mobi/maven</url>
 					<url>ftp://home.nabla.mobi:8021/</url>
 					-->
-					<url>dav:http://192.168.0.46:8087/maven/build-tools</url>
+					<url>dav:home.nabla.mobi:8087/maven/build-tools</url>
 				</site>
 			</distributionManagement>
 			<properties>
