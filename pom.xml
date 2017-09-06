@@ -6,9 +6,10 @@
 	<parent>
 		<artifactId>dependencies</artifactId>
 		<groupId>com.nabla.project</groupId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>LATEST</version>
 		<relativePath>../dependencies/pom.xml</relativePath>
 	</parent>
+
 	<groupId>com.nabla.project</groupId>
 	<artifactId>build-tools</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
