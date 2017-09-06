@@ -3,12 +3,14 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
+	<!--
 	<parent>
 		<artifactId>dependencies</artifactId>
 		<groupId>com.nabla.project</groupId>
 		<version>LATEST</version>
 		<relativePath>../dependencies/pom.xml</relativePath>
 	</parent>
+	-->
 
 	<groupId>com.nabla.project</groupId>
 	<artifactId>build-tools</artifactId>
