@@ -43,8 +43,8 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/AlbanAndrieu/nabla-build-tools.git</connection>
-		<developerConnection>scm:git:git@github.com:AlbanAndrieu/nabla-build-tools.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/AlbanAndrieu/nabla-build-tools.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/AlbanAndrieu/nabla-build-tools.git</developerConnection>
 		<url>https://github.com/AlbanAndrieu/nabla-build-tools</url>
 		<tag>HEAD</tag>				
 	</scm>
