@@ -18,4 +18,4 @@ bower_components/
 /tmp/
 /scripts/bower/bower-*
 *.log
-*.back
+*.bak
