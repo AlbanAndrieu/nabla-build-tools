@@ -63,16 +63,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<wagon.ftp.plugin.version>3.0.0</wagon.ftp.plugin.version>
+		<wagon.ftp.plugin.version>3.3.4</wagon.ftp.plugin.version>
 		<wagon.svn.plugin.version>1.12</wagon.svn.plugin.version>
-		<wagon.webdav.jackrabbit.version>3.0.0</wagon.webdav.jackrabbit.version>
+		<wagon.webdav.jackrabbit.version>3.3.4</wagon.webdav.jackrabbit.version>
 		<maven.release.plugin.version>2.5.3</maven.release.plugin.version>
 		<maven.scm.provider.jgit.version>1.9.5</maven.scm.provider.jgit.version>
 		<maven.site.plugin.version>3.7</maven.site.plugin.version>
 		
-		<doxia.core.version>1.8</doxia.core.version>
+		<doxia.core.version>1.9.1</doxia.core.version>
 		<doxia.module.twiki.version>${doxia.version}</doxia.module.twiki.version>
-		<doxia.version>1.8.1</doxia.version>		
+		<doxia.version>1.9.2</doxia.version>		
 	</properties>
 	
 	<build>
