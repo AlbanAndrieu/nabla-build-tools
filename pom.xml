@@ -46,7 +46,7 @@
 		<connection>scm:git:ssh://git@github.com/AlbanAndrieu/nabla-build-tools.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/AlbanAndrieu/nabla-build-tools.git</developerConnection>
 		<url>https://github.com/AlbanAndrieu/nabla-build-tools</url>
-		<tag>HEAD</tag>				
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
@@ -68,13 +68,13 @@
 		<wagon.webdav.jackrabbit.version>3.3.4</wagon.webdav.jackrabbit.version>
 		<maven.release.plugin.version>2.5.3</maven.release.plugin.version>
 		<maven.scm.provider.jgit.version>1.9.5</maven.scm.provider.jgit.version>
-		<maven.site.plugin.version>3.7</maven.site.plugin.version>
-		
+		<maven.site.plugin.version>3.8.2</maven.site.plugin.version>
+
 		<doxia.core.version>1.9.1</doxia.core.version>
 		<doxia.module.twiki.version>${doxia.version}</doxia.module.twiki.version>
-		<doxia.version>1.9.2</doxia.version>		
+		<doxia.version>1.9.2</doxia.version>
 	</properties>
-	
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -136,9 +136,9 @@
 					<configuration>
 						<encoding>${project.build.sourceEncoding}</encoding>
 					</configuration>
-				</plugin>				
+				</plugin>
 			</plugins>
-		</pluginManagement>		
+		</pluginManagement>
 		<extensions>
 			<!-- WebDAV for remote deployment -->
 			<!-- not working with maven 3 mvn site
